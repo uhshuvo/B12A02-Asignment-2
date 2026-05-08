@@ -8,8 +8,17 @@
     font-style: normal;
 }
 
+/* banner section small device  */
 @media screen and (max-width: 567px) {
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        margin-top: 30px;
+    }
+
     .image {
-        width: 25%;
+        width: 20%;
     }
 }
