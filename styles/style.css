@@ -22,3 +22,31 @@
         width: 20%;
     }
 }
+
+/* .flowers-card img {
+    width: 100%;
+} */
+
+/* flowers card device */
+
+@media screen and (max-width:576px) {
+    .flowers-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:372px) {
+    .flowers-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .flowers-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
