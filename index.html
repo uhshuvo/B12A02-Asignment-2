@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
 
-    <body class="noto-serif-font max-w-[1140px] m-auto">
-        <header>
+    <body class="noto-serif-font">
+        <header class="max-w-[1140px] m-auto">
             <nav class="flex justify-between">
                 <img class="image" src="assets/logo.png" alt="flower shop">
                 <ul class="flex items-center gap-7 text-lg">
@@ -26,7 +26,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="banner-section flex mt-20 items-center">
+        <section class="max-w-[1140px] m-auto banner-section flex mt-20 items-center">
             <div class="banner-content">
                 <h1 class="text-5xl leading-14">ALWAYS <span class="text-[#E95A08] font-semibold">FRESH</span>
                     <br><span class="text-[#E95A08] font-semibold">FLOWERS</span>
@@ -41,7 +41,7 @@
             <img src="assets/hero-flower.png" alt="">
         </section>
         <main>
-            <section>
+            <section class="max-w-[1140px] m-auto">
                 <div class="text-center mt-10 mb-10">
                     <h1 class="text-4xl font-semibold mb-4"><span class="text-[#E95A08]">Our</span> Plants</h1>
                     <p class="text-sm text text-[#999B9F]">"Explore our diverse range of potted plants. Whether you are
@@ -111,7 +111,8 @@
                     </div>
                 </div>
             </section>
-            <section class="trusted-badge grid grid-cols lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-16 mt-36">
+            <section
+                class="max-w-[1140px] m-auto trusted-badge grid grid-cols lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-16 mt-36">
                 <img class="flower-img w-[540px] h-[597px]" src="assets/flower-store.png" alt="">
                 <div class="trusted-content">
                     <img class="badge-img w-50 hidden sm:block" src="assets/trusted-badge.png" alt="">
@@ -140,9 +141,9 @@
                 </div>
             </section>
 
-            <section>
+            <section class="max-w-[1140px] m-auto mb-20">
                 <div class="mb-10 max-w-xl mx-auto text-center mt-10">
-                    <h2 class="text-5xl font-bold">
+                    <h2 class="text-5xl font-bold mb-5">
                         <span class="text-orange-500">Latest</span> Deals
                     </h2>
                     <p class="text-gray-500">The Flower & Plants Lover’s CornerWelcome
@@ -159,14 +160,14 @@
                         <div class="relative overflow-hidden rounded-2xl">
                             <img class="w-full" src="assets/deal-bloom.png" alt="">
                             <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
-                                <h3 class="text-3xl font-bold">30% Off | Ana Plant</h3>
+                                <h3 class="lg:text-3xl font-bold">30% Off | Ana Plant</h3>
                                 <button class="underline"><a href="">Shop Now</a></button>
                             </div>
                         </div>
                         <div class="relative overflow-hidden rounded-2xl bg-black/40">
                             <img class="w-full" src="assets/deal-ana.png" alt="">
                             <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-                                <h3 class="text-3xl font-bold">30% Off | Ana Plant</h3>
+                                <h3 class="lg:text-3xl font-bold">30% Off | Ana Plant</h3>
                                 <button class="underline"><a href="">Shop Now</a></button>
                             </div>
                         </div>
@@ -175,9 +176,23 @@
                         <div class="relative overflow-hidden rounded-2xl">
                             <img class="w-full" src="assets/deal-zabo.png" alt="">
                             <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-                                <h3 class="text-4xl font-bold">30% Off | Ana Plant</h3>
+                                <h3 class="lg:text-4xl font-bold">30% Off | Ana Plant</h3>
                                 <button class="underline"><a href="">Shop Now</a></button>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-section flex flex-col items-center justify-center text-center">
+                <div>
+                    <div>
+                        <h3 class="lg:text-5xl font-bold mb-5 text-white">Join the colorful Bunch</h3>
+                        <div class="flex w-full overflow-hidden rounded">
+                            <input class="w-full lg:px-3 lg:py-3 bg-white outline-none" type="text" name="email" id=""
+                                placeholder="write email">
+                            <button
+                                class="bg-amber-600 px-10 font-semibold text-white cursor-pointer">Subscribe</button>
                         </div>
                     </div>
                 </div>
